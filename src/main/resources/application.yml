@@ -1,0 +1,3 @@
+rest:
+  template:
+    domain: http://localhost:8080
