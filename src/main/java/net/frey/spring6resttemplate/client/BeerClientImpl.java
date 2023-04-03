@@ -18,8 +18,8 @@ import org.springframework.web.util.UriComponentsBuilder;
 @Service
 @RequiredArgsConstructor
 public class BeerClientImpl implements BeerClient {
-    private static final String COLLECTION_PATH = "/api/v1/beers";
-    private static final String INSTANCE_PATH = "/api/v1/beers/{id}";
+    public static final String COLLECTION_PATH = "/api/v1/beers";
+    public static final String INSTANCE_PATH = "/api/v1/beers/{id}";
 
     private final RestTemplateBuilder builder;
 
