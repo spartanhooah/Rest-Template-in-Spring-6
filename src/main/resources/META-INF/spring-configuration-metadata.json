@@ -3,6 +3,14 @@
     {
       "name": "rest.template.domain",
       "type": "java.lang.String"
+    },
+    {
+      "name": "rest.template.username",
+      "type": "java.lang.String"
+    },
+    {
+      "name": "rest.template.password",
+      "type": "java.lang.String"
     }
   ]
 }
